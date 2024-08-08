@@ -228,8 +228,14 @@
     .icons-arrow-left {
         display: block;
     }
-    .image-in-footer-container{
+
+    .image-in-footer-container {
         display: none;
+    }
+
+    .footer_list_img {
+        display: block;
+        padding: 24px 0 29px 0;
     }
 
     /*    kategory end*/
@@ -258,17 +264,17 @@
         justify-content: center;
         gap: 8px;
     }
-    .image-in-footer-container{
+
+    .image-in-footer-container {
         display: none;
     }
+
     .footer_list {
         gap: 86px;
     }
+
     .footer_list_img {
         display: block;
-        padding: 24px 0  29px 0;
-    }
-    .footer_list_img {
-        display: block;
+        padding: 24px 0 29px 0;
     }
 }
