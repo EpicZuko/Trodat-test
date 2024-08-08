@@ -232,7 +232,7 @@
     /*    kategory end*/
 }
 
-@media (max-width: 390px) {
+@media (max-width: 375px) {
     .header_container {
         display: flex;
         justify-content: center;
