@@ -228,18 +228,21 @@
     .icons-arrow-left {
         display: block;
     }
+    .image-in-footer-container{
+        display: none;
+    }
 
     /*    kategory end*/
 }
 
-@media (max-width: 391px) {
+@media (max-width: 376px) {
     .header_container {
         display: flex;
         justify-content: center;
         align-items: center;
         background: rgba(238, 87, 92, 1);
         padding: 20px 12px 20px 15px;
-        gap: 20px;
+        gap: 10px;
         width: 100%;
     }
 
@@ -254,5 +257,15 @@
     .header_images_buttons_container {
         justify-content: center;
         gap: 8px;
+    }
+    .image-in-footer-container{
+        display: none;
+    }
+    .footer_list {
+        gap: 86px;
+    }
+    .footer_list_img {
+        display: block;
+        padding: 24px 0  29px 0;
     }
 }
