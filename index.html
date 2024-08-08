@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleMedia.css">
+    <link href="https://fonts.cdnfonts.com/css/caros-soft" rel="stylesheet">
+</head>
+<body>
+<!--header start-->
+<header class="header_container">
+    <div class="header_logo">
+        <img src="./images/logo.png" alt="">
+        <img class="menu_img" src="./images/logo_media.png" alt="menu">
+    </div>
+    <nav>
+        <ul class="header_list_container">
+            <li><a href="">Главная</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Акции</a></li>
+            <li><a href="">Новости</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="header_images_buttons_container">
+        <div class="header_image_search_1">
+            <img src="./images/search.png" alt="">
+        </div>
+        <div class="header_image_user_1">
+            <img src="./images/user.png" alt="">
+        </div>
+        <div class="header_button">
+            <button>корзина<img src="./images/cart.png" alt=""></button>
+        </div>
+        <div class="header_menu">
+            <img src="./images/menu-alt-2.png" alt="menu_img">
+        </div>
+    </div>
+</header>
+
+<!--header end-->
+<section>
+    <div class="katalog_trodat_h1">
+        <h1>Каталог Trodat</h1>
+    </div>
+</section>
+<section class="filter_search_container">
+    <div class="filter_button_kategory">
+        <button class="button_filter">
+            <img src="./images/filter-alt.png" alt="">
+            Сортировка
+        </button>
+        <button class="button_filter_2">Категории <img src="./images/arrow-right.png" alt=""></button>
+    </div>
+    <div class="input_container">
+        <img src="./images/search.png" alt="">
+        <input type="search" placeholder="Искать товар..."/>
+    </div>
+</section>
+<!--start card-->
+<div class="main_container">
+    <main class="card_main_pagination">
+        <!--kategory start-->
+        <div class="global-container-all">
+            <div class="parent-container-range">
+                <img class="icon-right" src="./assets/icons/icon-right.png" alt="">
+                <div class="container-price-range">
+                    <span>По ценам</span>
+                    <div class="container-price">
+                        <span>250 c.</span>
+                        <span>4500 c.</span>
+                    </div>
+                    <div class="range-slider">
+                        <input type="range" min="0" max="100" value="20" class="thumb thumb-left">
+                        <input type="range" min="0" max="100" value="80" class="thumb thumb-right">
+                        <div class="slider-track"></div>
+                        <div class="filled-track"></div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="container-price-range">
+                    <span>По диаметру (круглые штампы)</span>
+                    <div class="container-price">
+                        <span>20 мм.</span>
+                        <span>100 мм.</span>
+                    </div>
+                    <div class="range-slider-2">
+                        <input type="range" min="0" max="100" value="20" class="thumb-2 thumb-left-2">
+                        <input type="range" min="0" max="100" value="80" class="thumb-2 thumb-right-2">
+                        <div class="slider-track-2"></div>
+                        <div class="filled-track-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-mm-buttons">
+                <span>По размеру (прямоугольные штампы)</span>
+                <div class="container-buttons">
+                    <button class="btn-mm">40 мм</button>
+                    <span>──</span>
+                    <button class="btn-mm">80 мм</button>
+                </div>
+            </div>
+
+
+            <div class="container-checked">
+                <b class="title"> <img class="icons-arrow-left" src="./assets/icons/arrow-left.png" alt=""> Категории</b>
+                <div class="container-checkboxes">
+
+                    <div class="child-1">
+                        <input id="a" type="checkbox">
+                        <label for="a">Круглые печати</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="b" type="checkbox">
+                        <label for="b">Прямоугольные печати</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="c" type="checkbox">
+                        <label for="c">Рельефные печати</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="d" type="checkbox">
+                        <label for="d">Квадратные штампы</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="e" type="checkbox">
+                        <label for="e">Нумераторы</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="f" type="checkbox">
+                        <label for="f">Карманные штампы</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="g" type="checkbox">
+                        <label for="g">Датеры</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="h" type="checkbox">
+                        <label for="h">Овальные печати</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="i" type="checkbox">
+                        <label for="i">Серия оснасток Professional</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="j" type="checkbox">
+                        <label for="j">Самонаборные печати и штампы</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="k" type="checkbox">
+                        <label for="k">Сургучная печать</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="l" type="checkbox">
+                        <label for="l">Штемпельные подушки</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="m" type="checkbox">
+                        <label for="m">Краска для штампов и печатей</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="n" type="checkbox">
+                        <label for="n">Расходные материалы</label>
+                    </div>
+                    <div class="child-1">
+                        <input id="o" type="checkbox">
+                        <label for="o">Авторучки со штампом Goldring</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--    kategory end-->
+        <section class="card">
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <div class="card_price_img">
+                    <h1>5200</h1>
+                    <div>
+                        <img src="./images/heart.png" alt="like">
+                    </div>
+                </div>
+                <div class="card_images">
+                    <img src="./images/image%2065.png" alt="">
+                </div>
+                <div class="card_text">
+                    <h3>
+                        Рельефная печать
+                    </h3>
+                    <span>Размер: Max. 41мм* 24мм</span>
+                </div>
+                <div class="elipse">
+                    <div class="elipse-1"></div>
+                    <div class="elipse-2"></div>
+                    <div class="elipse-3"></div>
+                    <div class="elipse-4"></div>
+                    <div class="elipse-5"></div>
+                    <div class="elipse-5"></div>
+                </div>
+                <div class="card_price_two_order">
+                    <h3>3500 с.</h3>
+                    <button class="card_add_button">
+                        <img src="./images/cart-add.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</div>
+<div class="pagination">
+    <a href="" class="page-item prev"><img src="./images/arrow-left.png" alt=""></a>
+    <a href="" class="page-item active">1</a>
+    <a href="" class="page-item">2</a>
+    <a href="" class="page-item">3</a>
+    <a href="" class="page-item">4</a>
+    <a href="" class="page-item">5</a>
+    <a href="" class="page-item next"><img src="./images/arrow-down-2.png" alt=""></a>
+</div>
+
+<!--card end -->
+
+<script src="./script.js"></script>
+</body>
+</html>
