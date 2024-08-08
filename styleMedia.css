@@ -318,9 +318,6 @@
 }
 
 @media (max-width: 362px) {
-    body {
-        background: red;
-    }
     .header_container {
         display: flex;
         justify-content: center;
