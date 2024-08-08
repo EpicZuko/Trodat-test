@@ -317,7 +317,10 @@
     }
 }
 
-@media (max-width: 363px) {
+@media (max-width: 362px) {
+    body {
+        background: red;
+    }
     .header_container {
         display: flex;
         justify-content: center;
@@ -352,5 +355,8 @@
     .footer_list_img {
         display: block;
         padding: 24px 0 29px 0;
+    }
+    .card {
+        padding: 10px;
     }
 }
