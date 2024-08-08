@@ -232,14 +232,14 @@
     /*    kategory end*/
 }
 
-@media (max-width: 376px) {
+@media (max-width: 391px) {
     .header_container {
         display: flex;
         justify-content: center;
         align-items: center;
         background: rgba(238, 87, 92, 1);
         padding: 20px 12px 20px 15px;
-        gap: 10px;
+        gap: 20px;
         width: 100%;
     }
 
