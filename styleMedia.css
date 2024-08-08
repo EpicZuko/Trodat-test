@@ -231,3 +231,28 @@
 
     /*    kategory end*/
 }
+
+@media (max-width: 390px) {
+    .header_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(238, 87, 92, 1);
+        padding: 20px 12px 20px 15px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .header_logo img:nth-child(1) {
+        display: none;
+    }
+
+    .header_list_container {
+        display: none;
+    }
+
+    .header_images_buttons_container {
+        justify-content: center;
+        gap: 8px;
+    }
+}
